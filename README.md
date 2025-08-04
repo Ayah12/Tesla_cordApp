@@ -16,6 +16,18 @@ The project includes:
 - `ReceiveShipmentFlow`: Responds to the shipment transaction.
 - `CarContract`: Validates business rules, including model restrictions and required signers.
 
+
+## ✅ Business Rules Enforced
+- Only CyberTruck model can be shipped.
+- Only the manufacturer is allowed to sign the shipment transaction.
+- Only one vehicle can be shipped per transaction.
+
+## 📌 Sample X500 Legal Names
+Make sure your node configurations use valid ISO 3166 country codes (e.g., C=AE not C=UAE).
+
+## 🤝 Contributing
+Feel free to fork this project and customize it for your own CorDapp experiments.
+
 ## 🛠 Tech Stack
 
 - [Corda](https://www.r3.com/corda/) 4.12 (Community Edition)
