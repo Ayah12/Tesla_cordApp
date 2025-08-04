@@ -31,9 +31,16 @@ Feel free to fork this project and customize it for your own CorDapp experiments
 ## 🛠 Tech Stack
 
 - [Corda](https://www.r3.com/corda/) 4.12 (Community Edition)
-- Java 8
+- Java 17
 - Gradle 7.6
 - IntelliJ IDEA
+
+## 🗂 Project Structure
+Tesla_cordApp/
+├── contracts/ # Contains CarContract and state definitions
+├── workflows/ # Contains flows: ShipmentFlow & ReceiveShipmentFlow
+├── build.gradle # Gradle build configuration
+├── nodes/ # Auto-generated node folders
 
 ### Deploy nodes
 ./gradlew clean deployNodes
