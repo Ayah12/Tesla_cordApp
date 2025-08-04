@@ -36,12 +36,13 @@ Feel free to fork this project and customize it for your own CorDapp experiments
 - IntelliJ IDEA
 
 ## 🗂 Project Structure
+```
 Tesla_cordApp/
-├── contracts/ # Contains CarContract and state definitions
-├── workflows/ # Contains flows: ShipmentFlow & ReceiveShipmentFlow
-├── build.gradle # Gradle build configuration
-├── nodes/ # Auto-generated node folders
-
+   ├── contracts/ # Contains CarContract and state definitions
+   ├── workflows/ # Contains flows: ShipmentFlow & ReceiveShipmentFlow
+   ├── build.gradle # Gradle build configuration
+   ├── nodes/ # Auto-generated node folders
+```
 ### Deploy nodes
 ./gradlew clean deployNodes
 
