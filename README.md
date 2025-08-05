@@ -44,9 +44,23 @@ Tesla_cordApp/
    ├── nodes/ # Auto-generated node folders
 ```
 ### Deploy nodes
+```
 ./gradlew clean deployNodes
+```
 
 ### Run nodes
-./build/nodes/runnodes
+```
+build/nodes/runnodes.bat
+```
+
+### Execute Flow
+```
+start shipmentFlow model: CyberTruck , owner: "O=SpaceX,L:Hawthrone,C=US"
+```
+
+### Search Vault
+```
+run vaultQuery contractStateType" com.template.states.CarState
+```
 
 
